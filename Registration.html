@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script src="JS/regis.js">
+    </script>
+  </head>
+  
+  <body onload="showPrompt()">
+    
+    <header>
+  <h1 id="head" style="font-size: 60px; ">LIVE&nbsp;&nbsp;VIRTUAL&nbsp;&nbsp;CLASSES</h1>
+</header>
+ <nav id="navigation">
+   <ul>
+  <li><a class="active" href="#home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+
+  <li><a href="#news">News&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  <li><a href="#contact">Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+   <li><a href="#about">Gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    <li><a href="#about">Registration&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+     <li><a href="#about">Courses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+     <li><a href="#about">Pre Test&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+  <li><a href="#about">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+</ul>
+  </nav>
+<div id="container">
+    <div id="middlepane">
+  <form name="form1">
+        <table>
+           <!--oninvalid="this.setCustomValidity('Enter User Name Here')">pattern="[A-Za-z]"--
+            <tr><th colspan="3" >Fill Valid Details</th></tr>
+            <tr>
+            <tr><td>User Name:    <input id="e" type="text" required  </td></tr>
+            <tr><td>Password:     <input id="g" type="password" required pattern=".{8,}"></td></tr>
+            <tr><td>Mobile Number:<input id="m" pattern=".{10,}" required type="number"></td></tr>
+            </tr>
+            <tr>-->
+              <td>Select al least Three Languages</td>
+              <tr><Td> C++:<input type="checkbox" name="productinfo" id="c1"></Td></tr>
+              <tr><Td> Java:<input type="checkbox" name="productinfo" id="c2"></Td></tr>
+              <tr><Td> .Net:<input type="checkbox" name="productinfo" id="c3"></Td></tr>
+              <tr><Td> Perl:<input type="checkbox" name="productinfo"  id="c4"></Td></tr>
+             <tr> <td>  <input type="submit" id="b1" onclick="cB()" value="Submit"></td></tr>
+             <tr>
+               <td>
+                 Search Here:<input type="text" id="the_search">
+                 <select id="s">Search Engine
+                <option value="g">Google</option>
+  <option value="d">Duck Duck go</option>
+  <option value="b">Bing</option>
+</select>
+                 <input type="button" onclick="ser()" value="Search">
+               </td>
+             </tr>
+        </table>
+  </form>
+    
+    </div>
+</div>
+  
+  
+<footer>
+  <p font-size="20px">Copyright Reserved for Live classes.com</p>
+</footer>
+  </body>
+</html>
